@@ -1,0 +1,90 @@
+/*Captain Kitty styling */
+
+.headline {
+  color: navy;
+  font-family: "Georgia", cursive, serif;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+
+.format {
+  font-family: "Arial", Arial, fantasy;
+  font-weight: bold;
+  color: navy;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%
+}
+
+h1 {
+  border-style: groove;
+  border-width: 20px;
+  border-color: green;
+  background-color: pink;
+}
+
+h2 {
+  color: slateblue;
+  background-color: pink;
+  text-align: center;
+  }
+
+
+
+
+.font {
+  font-family: "verdana", cursive, sans-serif;
+  font-weight: bold;
+  color: navy;
+}
+
+h2 {
+  color: maroon;
+  text-transform: capitalize;
+  border-style: double;
+  border-width: 10px;
+  border-color: green;
+
+}
+
+
+aside {
+    background-color: cyan;
+    }
+
+body{
+  background-image: url("https://media2.giphy.com/media/jtavDv8iqstY4/200.webp?cid=790b76119350d60c8aa2ac9aa0204365b90be0fe1df4fb3b&rid=200.webp");
+}
+
+aside {
+  border-style: ridge;
+  border-width: thick;
+  border-color: tomato;
+}
+
+img {
+  border-style: groove;
+  border-width: 20px;
+  border-color: navy;
+}
+
+/*mouse over link */
+a:hover {
+  color: lime;
+}
+
+/*visited link */
+a:link {
+  color: purple;
+}
+
+h4:hover {
+  background-color: magenta;
+}
