@@ -1,26 +1,48 @@
 /*Captain Kitty styling */
 
+body{
+  background-image: url("https://media2.giphy.com/media/jtavDv8iqstY4/200.webp?cid=790b76119350d60c8aa2ac9aa0204365b90be0fe1df4fb3b&rid=200.webp");
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 50rem;
+  margin-right: 100px;
+  padding: 1rem;
+  }
+
+.main-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .headline {
   color: navy;
-  font-family: "Georgia", cursive, serif;
+  font-family: 'Rye', cursive;
   font-size: 35px;
   font-weight: bold;
   text-align: center;
   letter-spacing: 3px;
 }
 
-
 .format {
-  font-family: "Arial", Arial, fantasy;
+  font-family: 'Sunshiney', fantasy;
   font-weight: bold;
   color: navy;
+  font-size: 25px;
 }
+
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%
+  width: 40%
 }
 
 h1 {
@@ -28,7 +50,7 @@ h1 {
   border-width: 20px;
   border-color: green;
   background-color: pink;
-}
+  }
 
 h2 {
   color: slateblue;
@@ -36,13 +58,22 @@ h2 {
   text-align: center;
   }
 
+h4 {
+  font-family: Apple Chancery, cursive;
+}
 
+nav {
+  border-style: solid;
+  border-width: 5px;
+  border-color: navy;
+  background-color: aqua;
+    }
 
-
-.font {
-  font-family: "verdana", cursive, sans-serif;
-  font-weight: bold;
-  color: navy;
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
 }
 
 h2 {
@@ -56,18 +87,22 @@ h2 {
 
 
 aside {
-    background-color: cyan;
-    }
-
-body{
-  background-image: url("https://media2.giphy.com/media/jtavDv8iqstY4/200.webp?cid=790b76119350d60c8aa2ac9aa0204365b90be0fe1df4fb3b&rid=200.webp");
-}
-
-aside {
+  width: 20rem;
+  background-color: cyan;
   border-style: ridge;
   border-width: thick;
   border-color: tomato;
-}
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  }
+
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    }
 
 img {
   border-style: groove;
@@ -87,4 +122,34 @@ a:link {
 
 h4:hover {
   background-color: magenta;
+}
+
+.fa-facebook {
+  color: blue;
+  font-size: 30px;
+}
+
+.fa-twitter-square {
+  color: blue;
+  font-size: 30px;
+}
+
+.fa-snapchat {
+  color: blue;
+  font-size: 30px;
+}
+
+.fa-instagram {
+  color: blue;
+  font-size: 30px;
+}
+
+
+footer {
+  border-style: outset;
+  border-width: 10px;
+  border-color: navy;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
 }
