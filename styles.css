@@ -1,7 +1,18 @@
 /*Captain Kitty styling */
+* {
+  box-sizing: border-box;
+}
+
 
 body{
   background-image: url("https://media2.giphy.com/media/jtavDv8iqstY4/200.webp?cid=790b76119350d60c8aa2ac9aa0204365b90be0fe1df4fb3b&rid=200.webp");
+}
+
+.pic {
+  border: 10px solid navy;
+  width: 255px;
+  margin: .05px;
+  overflow: hidden;
 }
 
 .container {
@@ -21,6 +32,15 @@ main {
   height: 100%;
 }
 
+.focus {
+  transition: all 1s ease;
+}
+
+.focus:hover {
+  border: 80px solid #4B0082;
+  border-radius: 50%;
+}
+
 .headline {
   color: navy;
   font-family: 'Rye', cursive;
@@ -37,6 +57,20 @@ main {
   font-size: 25px;
 }
 
+.backing li:nth-child(even){
+  background-color: #DA70D6;
+}
+
+
+.format-cool {
+  font-family: 'Sunshiney', fantasy;
+  font-weight: bold;
+  color: #800080;
+  font-size: 25px;
+}
+
+
+p[class$="cool"] {background-color: #3CB371;}
 
 .center {
   display: block;
@@ -104,9 +138,20 @@ aside {
   justify-content: center;
     }
 
+  /*sidepan*/
+
+.sidpan img {
+  margin-left: 0px;
+  transition: margin 1s ease;
+}
+
+.sidepan img:hover {
+  margin-left: -200px;
+}
+
 img {
   border-style: groove;
-  border-width: 20px;
+  border-width: 10px;
   border-color: navy;
 }
 
@@ -132,6 +177,20 @@ h4:hover {
 .fa-twitter-square {
   color: blue;
   font-size: 30px;
+}
+
+/*social link transition*/
+
+.grow-spin {
+  transition: all 0.5s ease;
+}
+.grow-spin:hover {
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 600%;
+  transition-property: font-size;
+  transition-duration: 5s;
+  transform: rotate(360deg);
 }
 
 .fa-snapchat {
