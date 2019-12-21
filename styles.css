@@ -40,6 +40,16 @@ main {
   height: 100%;
 }
 
+.hidden {
+  position: relative;
+  left: -1000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0;
+}
+
 .focus {
   transition: all 1s ease;
 }
@@ -65,8 +75,9 @@ main {
   font-size: 25px;
 }
 
+/* lightened the background color to make the text more readable*/
 .backing li:nth-child(even){
-  background-color: #DA70D6;
+  background-color: #E58AE5;
 }
 
 
@@ -77,8 +88,8 @@ main {
   font-size: 25px;
 }
 
-
-p[class$="cool"] {background-color: #3CB371;}
+/* changed the p background color to make text readable */
+p[class$="cool"] {background-color: #79f2b0;}
 
 .center {
   display: block;
